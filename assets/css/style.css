@@ -1,0 +1,158 @@
+
+
+table{border-collapse:collapse;}
+th,tr,td{
+	border:1px solid #000;
+	width:150px;
+	height:45px;
+	vertical-align:middle;
+	text-align:center;
+}
+th{
+	color:#fff;
+	background-color: #252525;
+}
+
+tr:nth-child(odd) td{
+	background-color:#eee;
+}
+
+.datos{
+    text-align: left;
+    
+    background-size: cover;
+    width: 25%;
+    height: 25%;
+    
+}
+
+.imagen1 {
+    width: 200px;
+}
+
+.imagen2 {
+    height: 200px;
+}
+
+.imgtipo1 {
+    height: 40px;
+  
+}
+
+.imgtipo2 {
+    height: 40px;
+    
+}
+
+
+      
+      
+
+
+body {
+
+    background-image: url("../image/fondo1.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    
+    
+    padding: 6.25rem 3.125rem ;
+}
+
+.formato1 {
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffffff;
+        
+        margin: 0 0 25px;
+        overflow: hidden;
+        padding: 20px;
+        border-radius: 35px 0px 35px 0px;
+        -moz-border-radius: 35px 0px 35px 0px;
+        -webkit-border-radius: 35px 0px 35px 0px;
+        border: 2px solid #5878ca;
+
+       
+}
+
+.formato2 {
+    
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius:  0px 35px 0px 35px ;
+    -moz-border-radius:  0px 35px 0px 35px;
+    -webkit-border-radius:  0px 35px 0px 35px;
+    border: 2px solid #5878ca;
+
+   
+}
+
+
+.flex-container {
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    margin: 2%;
+    justify-content: space-evenly;
+  
+    
+  }
+  
+  .flex-item {
+    height: 480px;
+    width: 350px;
+    padding: 15px;
+  
+  } 
+
+
+  .card-img-overlay{
+    margin-top: 105%;
+  }
+
+  .container-fluid{
+    padding-top: 2%;
+      text-align: center;
+    }
+  
+    .card {
+      margin-bottom: 30px;
+      border: 10px solid #5878ca;
+      background-image: url("../image/fondo.gif");
+    }
+  
+    @supports(object-fit: cover){
+  .oficial{
+    height: 100%;
+    
+  }
+}
+
+
+.btn {
+
+cursor: pointer;
+
+
+}
+
+.pokebola {
+    margin-top: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.nintendo{
+    width: 50%;
+}
