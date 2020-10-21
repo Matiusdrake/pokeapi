@@ -70,13 +70,13 @@ function consultaAPI(Pokemon) {
             switch (tipo1) {
 
                 case "bug":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_bug_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/bug.svg');
                     $(".formato1").css("background-color", "#A8B820");
                     $(".formato2").css("background-color", "#A8B820");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_flying_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_fire_Type_Icon.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_rock_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/flying.svg');
+                    $(".debilidad2").attr('src', 'assets/image/fire.svg');
+                    $(".debilidad3").attr('src', 'assets/image/rock.svg');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
@@ -91,13 +91,13 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "dark":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_dark_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/dark.svg');
                     $(".formato1").css("background-color", "#7A5848");
                     $(".formato2").css("background-color", "#7A5848");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_fighting_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_fairy_Type_Icon.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_bug_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/fighting.svg');
+                    $(".debilidad2").attr('src', 'assets/image/fairy.svg');
+                    $(".debilidad3").attr('src', 'assets/image/bug.svg');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
@@ -110,13 +110,13 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "dragon":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_dragon_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/dragon.svg');
                     $(".formato1").css("background-color", "#7860E0");
                     $(".formato2").css("background-color", "#7860E0");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_dragon_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_fairy_Type_Icon.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_ice_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/dragon.svg');
+                    $(".debilidad2").attr('src', 'assets/image/fairy.svg');
+                    $(".debilidad3").attr('src', 'assets/image/ice.svg');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
@@ -129,11 +129,11 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "electric":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_electric_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/electric.svg');
                     $(".formato1").css("background-color", "#F8D030");
                     $(".formato2").css("background-color", "#F8D030");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_Ground_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/Ground.svg');
                     $(".debilidad2").attr('src', '');
                     $(".debilidad3").attr('src', '');
                     $(".debilidad4").attr('src', '');
@@ -149,12 +149,12 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "fairy":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_fairy_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/fairy.svg');
                     $(".formato1").css("background-color", "#E79FE7");
                     $(".formato2").css("background-color", "#E79FE7");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_poison_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_steel_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/poison.svg');
+                    $(".debilidad2").attr('src', 'assets/image/steel.svg');
                     $(".debilidad3").attr('src', '');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
@@ -169,13 +169,13 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "fighting":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_fighting_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/fighting.svg');
                     $(".formato1").css("background-color", "#A05038");
                     $(".formato2").css("background-color", "#A05038");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_flying_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_fairy_Type_Icon.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_psychic_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/flying.svg');
+                    $(".debilidad2").attr('src', 'assets/image/fairy.svg');
+                    $(".debilidad3").attr('src', 'assets/image/psychic.svg');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
@@ -188,13 +188,13 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "fire":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_fire_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/fire.svg');
                     $(".formato1").css("background-color", "#F05030");
                     $(".formato2").css("background-color", "#F05030");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_water_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_Ground_Type_Icon.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_rock_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/water.svg');
+                    $(".debilidad2").attr('src', 'assets/image/Ground.svg');
+                    $(".debilidad3").attr('src', 'assets/image/rock.svg');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
@@ -211,13 +211,13 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "flying":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_flying_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/flying.svg');
                     $(".formato1").css("background-color", "#98A8F0");
                     $(".formato2").css("background-color", "#98A8F0");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_electric_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_ice_Type_Icon.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_rock_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/electric.svg');
+                    $(".debilidad2").attr('src', 'assets/image/ice.svg');
+                    $(".debilidad3").attr('src', 'assets/image/rock.svg');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
@@ -230,12 +230,12 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "ghost":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_ghost_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/ghost.svg');
                     $(".formato1").css("background-color", "#6060B0");
                     $(".formato2").css("background-color", "#6060B0");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_ghost_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_dark_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/ghost.svg');
+                    $(".debilidad2").attr('src', 'assets/image/dark.svg');
                     $(".debilidad3").attr('src', '');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
@@ -249,15 +249,15 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "grass":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_grass_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/grass.svg');
                     $(".formato1").css("background-color", "#78C850");
                     $(".formato2").css("background-color", "#78C850");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_fire_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_ice_Type_Icon.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_poison_Type_Icon.svg');
-                    $(".debilidad4").attr('src', 'assets/image/Pokémon_flying_Type_Icon.svg');
-                    $(".debilidad5").attr('src', 'assets/image/Pokémon_bug_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/fire.svg');
+                    $(".debilidad2").attr('src', 'assets/image/ice.svg');
+                    $(".debilidad3").attr('src', 'assets/image/poison.svg');
+                    $(".debilidad4").attr('src', 'assets/image/flying.svg');
+                    $(".debilidad5").attr('src', 'assets/image/bug.svg');
 
 
 
@@ -272,13 +272,13 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "ground":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_ground_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/Ground.svg');
                     $(".formato1").css("background-color", "#E9D6A4");
                     $(".formato2").css("background-color", "#E9D6A4");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_water_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_grass_Type_Icon.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_ice_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/water.svg');
+                    $(".debilidad2").attr('src', 'assets/image/grass.svg');
+                    $(".debilidad3").attr('src', 'assets/image/ice.svg');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
@@ -292,14 +292,14 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "ice":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_ice_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/ice.svg');
                     $(".formato1").css("background-color", "#58C8E0");
                     $(".formato2").css("background-color", "#58C8E0");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_fire_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_steel_Type_Icon.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_rock_Type_Icon.svg');
-                    $(".debilidad4").attr('src', 'assets/image/Pokémon_fighting_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/fire.svg');
+                    $(".debilidad2").attr('src', 'assets/image/steel.svg');
+                    $(".debilidad3").attr('src', 'assets/image/rock.svg');
+                    $(".debilidad4").attr('src', 'assets/image/fighting.svg');
                     $(".debilidad5").attr('src', '');
 
                     $(".debil1").html("fire")
@@ -310,13 +310,13 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "normal":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_normal_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/normal.svg');
                     $(".formato1").css("background-color", "#A8A090");
                     $(".formato2").css("background-color", "#A8A090");
 
                     $(".debilidad1").attr('src', '');
                     $(".debilidad2").attr('src', '');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_fighting_Type_Icon.svg');
+                    $(".debilidad3").attr('src', 'assets/image/fighting.svg');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
@@ -329,12 +329,12 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "poison":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_poison_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/poison.svg');
                     $(".formato1").css("background-color", "#B058A0");
                     $(".formato2").css("background-color", "#B058A0");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_ground_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_psychic_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/Ground.svg');
+                    $(".debilidad2").attr('src', 'assets/image/psychic.svg');
                     $(".debilidad3").attr('src', '');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
@@ -349,13 +349,13 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "psychic":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_psychic_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/psychic.svg');
                     $(".formato1").css("background-color", "#F870A0");
                     $(".formato2").css("background-color", "#F870A0");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_ghost_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_dark_Type_Icon.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_bug_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/ghost.svg');
+                    $(".debilidad2").attr('src', 'assets/image/dark.svg');
+                    $(".debilidad3").attr('src', 'assets/image/bug.svg');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
@@ -369,15 +369,15 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "rock":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_rock_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/rock.svg');
                     $(".formato1").css("background-color", "#B8A058");
                     $(".formato2").css("background-color", "#B8A058");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_water_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_grass_Type_Icon.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_fighting_Type_Icon.svg');
-                    $(".debilidad4").attr('src', 'assets/image/Pokémon_ground_Type_Icon.svg');
-                    $(".debilidad5").attr('src', 'assets/image/Pokémon_steel_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/water.svg');
+                    $(".debilidad2").attr('src', 'assets/image/grass.svg');
+                    $(".debilidad3").attr('src', 'assets/image/fighting.svg');
+                    $(".debilidad4").attr('src', 'assets/image/Ground.svg');
+                    $(".debilidad5").attr('src', 'assets/image/steel.svg');
 
 
 
@@ -391,13 +391,13 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "steel":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_steel_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/steel.svg');
                     $(".formato1").css("background-color", "#A8A8C0");
                     $(".formato2").css("background-color", "#A8A8C0");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_fire_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_fighting_Type_Icon.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Pokémon_ground_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/fire.svg');
+                    $(".debilidad2").attr('src', 'assets/image/fighting.svg');
+                    $(".debilidad3").attr('src', 'assets/image/Ground.svg');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
@@ -411,12 +411,12 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "water":
-                    $(".imgtipo1").attr('src', 'assets/image/Pokémon_water_Type_Icon.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/water.svg');
                     $(".formato1").css("background-color", "#3899F8");
                     $(".formato2").css("background-color", "#3899F8");
 
-                    $(".debilidad1").attr('src', 'assets/image/Pokémon_electric_Type_Icon.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Pokémon_grass_Type_Icon.svg');
+                    $(".debilidad1").attr('src', 'assets/image/electric.svg');
+                    $(".debilidad2").attr('src', 'assets/image/grass.svg');
                     $(".debilidad3").attr('src', '');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
@@ -441,100 +441,80 @@ function consultaAPI(Pokemon) {
             switch (tipo2) {
 
                 case "bug":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_bug_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/bug.svg');
                     break;
 
                 case "dark":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_dark_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/dark.svg');
                     break;
 
                 case "dragon":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_dragon_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/dragon.svg');
                     break;
 
                 case "electric":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_electric_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/electric.svg');
                     break;
 
                 case "fairy":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_fairy_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/fairy.svg');
                     break;
 
                 case "fighting":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_fighting_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/fighting.svg');
                     break;
 
                 case "fire":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_fire_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/fire.svg');
                     break;
 
                 case "flying":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_flying_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/flying.svg');
                     break;
 
                 case "ghost":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_ghost_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/ghost.svg');
                     break;
 
                 case "grass":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_grass_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/grass.svg');
                     break;
 
                 case "ground":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_ground_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/Ground.svg');
                     break;
 
                 case "ice":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_ice_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/ice.svg');
                     break;
 
                 case "normal":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_normal_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/normal.svg');
                     break;
 
                 case "poison":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_poison_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/poison.svg');
                     break;
 
                 case "psychic":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_psychic_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/psychic.svg');
                     break;
 
                 case "rock":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_rock_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/rock.svg');
                     break;
 
                 case "steel":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_steel_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/steel.svg');
                     break;
 
                 case "water":
-                    $(".imgtipo2").attr('src', 'assets/image/Pokémon_water_Type_Icon.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/water.svg');
                     break;
                 default:
                     alert("ninguntipo");
                     break;
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             let HP = data.stats[0].base_stat
             let ataque = data.stats[1].base_stat
@@ -549,19 +529,12 @@ function consultaAPI(Pokemon) {
             $(".defesp").html(defensa_especial)
             $(".velocidad").html(velocidad)
 
-
-
-
             canvas(HP, ataque, defensa, ataque_especial, defensa_especial, velocidad,)
         },
         dataType: 'json'
     });
 
-
-
-
 }
-
 
 function consultaAPI2(Pokemon) {
 
@@ -569,7 +542,6 @@ function consultaAPI2(Pokemon) {
 
         type: "GET",
         url: `https://pokeapi.co/api/v2/pokemon-species/${Pokemon}`,
-
 
         success: function (pokedex) {
 
@@ -584,13 +556,7 @@ function consultaAPI2(Pokemon) {
         dataType: 'json'
     });
 
-
-
-
 }
-
-
-
 
 function canvas(HP, ataque, defensa, ataque_especial, defensa_especial, velocidad,) {
 
@@ -617,10 +583,6 @@ function canvas(HP, ataque, defensa, ataque_especial, defensa_especial, velocida
                 { y: ataque_especial, indexLabel: "\u2605 Ataque especial" },
                 { y: defensa_especial, indexLabel: "\u2605 Defensa especial" },
                 { y: velocidad, indexLabel: "\u2605 Velocidad" },
-
-
-
-
 
             ]
         }]
