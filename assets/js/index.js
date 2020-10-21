@@ -9,21 +9,29 @@ $(document).ready(function () {
 })
 
 $("button").click(function () {
+    
     let pokemon = $("#input").val()
-    consultaAPI(pokemon)
-    consultaAPI2(pokemon)
     $('#input').val('');
     $("#tipo2").html(null)
     $(".imgtipo2").attr('src', '');
+    consultaAPI(pokemon)
+    consultaAPI2(pokemon)
+    
 
 })
 
 
 $("#random").click(function () {
+
+    $('#input').val('');
     $(".imgtipo2").attr('src', '');
     $("#tipo2").html(null)
-    $('#input').val('');
+
     var pokemon = Math.round(Math.random() * 890);
+
+    
+    
+    
     consultaAPI(pokemon)
     consultaAPI2(pokemon)
 
@@ -40,6 +48,7 @@ function consultaAPI(Pokemon) {
         success: function (data) {
 
             console.log(data)
+
             $("#nombre").html(data.name)
             $("#numero").html(data.id)
 
