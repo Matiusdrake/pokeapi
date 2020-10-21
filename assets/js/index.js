@@ -287,6 +287,12 @@ function consultaAPI(Pokemon) {
             let ataque_especial = data.stats[3].base_stat
             let defensa_especial = data.stats[4].base_stat
             let velocidad = data.stats[5].base_stat
+            $(".ataque").html(ataque)
+            $(".hp").html(HP)
+            $(".defensa").html(defensa)
+            $(".atqesp").html(ataque_especial)
+            $(".defesp").html(defensa_especial)
+            $(".velocidad").html(velocidad)
 
 
 
@@ -357,6 +363,10 @@ function canvas(HP, ataque, defensa, ataque_especial, defensa_especial, velocida
                 { y: defensa_especial, indexLabel: "\u2605 Defensa especial" },
                 { y: velocidad, indexLabel: "\u2605 Velocidad" },
 
+          
+                
+
+                
             ]
         }]
     });
@@ -366,5 +376,3 @@ function canvas(HP, ataque, defensa, ataque_especial, defensa_especial, velocida
 
 
 
-
-$(body)
