@@ -133,14 +133,14 @@ function consultaAPI(Pokemon) {
                     $(".formato1").css("background-color", "#F8D030");
                     $(".formato2").css("background-color", "#F8D030");
 
-                    $(".debilidad1").attr('src', 'assets/image/Ground.svg');
+                    $(".debilidad1").attr('src', 'assets/image/ground.svg');
                     $(".debilidad2").attr('src', '');
                     $(".debilidad3").attr('src', '');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
 
-                    $(".debil1").html("Ground")
+                    $(".debil1").html("ground")
                     $(".debil2").html("")
                     $(".debil3").html("")
                     $(".debil4").html("")
@@ -193,14 +193,14 @@ function consultaAPI(Pokemon) {
                     $(".formato2").css("background-color", "#F05030");
 
                     $(".debilidad1").attr('src', 'assets/image/water.svg');
-                    $(".debilidad2").attr('src', 'assets/image/Ground.svg');
+                    $(".debilidad2").attr('src', 'assets/image/ground.svg');
                     $(".debilidad3").attr('src', 'assets/image/rock.svg');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
 
                     $(".debil1").html("Water")
-                    $(".debil2").html("Ground")
+                    $(".debil2").html("ground")
                     $(".debil3").html("Rock")
                     $(".debil4").html("")
                     $(".debil5").html("")
@@ -272,7 +272,7 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "ground":
-                    $(".imgtipo1").attr('src', 'assets/image/Ground.svg');
+                    $(".imgtipo1").attr('src', 'assets/image/ground.svg');
                     $(".formato1").css("background-color", "#E9D6A4");
                     $(".formato2").css("background-color", "#E9D6A4");
 
@@ -333,7 +333,7 @@ function consultaAPI(Pokemon) {
                     $(".formato1").css("background-color", "#B058A0");
                     $(".formato2").css("background-color", "#B058A0");
 
-                    $(".debilidad1").attr('src', 'assets/image/Ground.svg');
+                    $(".debilidad1").attr('src', 'assets/image/ground.svg');
                     $(".debilidad2").attr('src', 'assets/image/psychic.svg');
                     $(".debilidad3").attr('src', '');
                     $(".debilidad4").attr('src', '');
@@ -376,7 +376,7 @@ function consultaAPI(Pokemon) {
                     $(".debilidad1").attr('src', 'assets/image/water.svg');
                     $(".debilidad2").attr('src', 'assets/image/grass.svg');
                     $(".debilidad3").attr('src', 'assets/image/fighting.svg');
-                    $(".debilidad4").attr('src', 'assets/image/Ground.svg');
+                    $(".debilidad4").attr('src', 'assets/image/ground.svg');
                     $(".debilidad5").attr('src', 'assets/image/steel.svg');
 
 
@@ -397,7 +397,7 @@ function consultaAPI(Pokemon) {
 
                     $(".debilidad1").attr('src', 'assets/image/fire.svg');
                     $(".debilidad2").attr('src', 'assets/image/fighting.svg');
-                    $(".debilidad3").attr('src', 'assets/image/Ground.svg');
+                    $(".debilidad3").attr('src', 'assets/image/ground.svg');
                     $(".debilidad4").attr('src', '');
                     $(".debilidad5").attr('src', '');
 
@@ -481,7 +481,7 @@ function consultaAPI(Pokemon) {
                     break;
 
                 case "ground":
-                    $(".imgtipo2").attr('src', 'assets/image/Ground.svg');
+                    $(".imgtipo2").attr('src', 'assets/image/ground.svg');
                     break;
 
                 case "ice":
